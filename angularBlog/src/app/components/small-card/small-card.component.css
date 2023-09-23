@@ -1,5 +1,4 @@
 .container_small_card {
-
   width: 700px;
   margin-bottom: 15px;
 
@@ -11,16 +10,19 @@
   flex-direction: row;
 }
 .small_card_photo > img {
-  width: 200px;
-  min-width: 200px;
+  width: 250px;
+  min-width: 100px;
   margin-right: 20px;
+  display: flex;
+
 
 }
 .small_card_title{
   display:flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  font-size: 10px;
 }
 .container_small_card_separator{
-  margin-top: 40px;
+  margin-top: 50px;
 }

@@ -1,16 +1,17 @@
 <div class="container_big_card">
   <div class="big-card_photo">
-    <img src="https://img.olhardigital.com.br/wp-content/uploads/2023/08/one-piece-live-action-1.jpg" alt="" height="200px" srcset="">
+    <img src="{{photoCover}}" alt="" height="200px" srcset="">
   </div>
 
   <div class="big_card_title">
-    <h1><a href="#">As melhores séries de 2023</a></h1>
+    <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
   </div>
   <div class="big_card_description">
     <p>
-      <a href="#">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque vestibulum tellus a blandit. Curabitur at turpis ut urna aliquam interdum in vitae tellus. Vestibulum cursus in leo vel condimentum. Proin malesuada lobortis urna, sit amet imperdiet eros suscipit eget. Morbi suscipit lectus mauris, non dignissim quam efficitur id.
+      <a [routerLink]="['content',Id]">
+      {{cardDescription}}
     </a>
   </p>
   </div>
+
 </div>

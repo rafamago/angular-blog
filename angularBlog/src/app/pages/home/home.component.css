@@ -1,14 +1,26 @@
 .container_articles{
-  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 
+  width: 600px;
+  height: 700px;
 
-  display:flex ;
-  flex-direction:row;
-  justify-content: center;
-}
-header{
-  margin-top: 15px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card_separator{
+  margin: 100px;
+}
+.articles_others{
+  width: 700px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
 
 }

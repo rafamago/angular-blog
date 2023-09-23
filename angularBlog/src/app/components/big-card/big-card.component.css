@@ -1,7 +1,8 @@
 .container_big_card{
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  width: 100%;
   height: 500px;
 
   display: flex;
@@ -21,7 +22,7 @@
   color: grey;
 }
 .big-card_photo > img {
-  width: 100%;
+  width: 600px;
   min-width: 400px;
 
 }
